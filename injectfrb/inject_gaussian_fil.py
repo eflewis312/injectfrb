@@ -109,7 +109,7 @@ if __name__=='__main__':
             --upsamp_factor %d --simulator %s\
             --dm_low %f --dm_high %f --paramslist %s --calc_snr %s' \
             % (fnfil, options.outdir, options.nfrb, \
-               options.upsamp_factor, options.upchan_factor, \
+               options.upchan_factor, options.upsamp_factor, \
                options.simulator, options.dm_min, options.dm_max, 
                paramsfile, options.calc_snr))
 
